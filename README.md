@@ -2,7 +2,9 @@
 How create docker file(image) and push to dockerhub
 
 1. create PHP file (name file is index.php)
+
 2.create Dockerfile with apache+PHP+us file (name file is Dockerfile)
+
 3.create docker image from us Dockerfile (create local image)
 $ docker build -t (name) (name file)
 For example: docker build -t denis2022 . 
